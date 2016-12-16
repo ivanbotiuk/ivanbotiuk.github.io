@@ -1,0 +1,178 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    width: 1060px;
+    height: 950px;
+    display: block;
+    margin: 0 auto;
+    font-family: Arial;
+    background-color: white;
+    box-shadow: 0 0 2px;
+}
+
+.header {
+    /*width: 147px;*/
+    /*height: 41px;*/
+    /*position: relative;*/
+    padding-left: 47px;
+    padding-top: 50px;
+}
+
+.menu {
+    width: 966px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 32px;
+    background: #5c5c5c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_ref {
+    color: white;
+}
+
+.header_menu_1, .header_menu_2, .header_menu_3, .header_menu_4 {
+    float: left;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.header_menu_1:hover, .header_menu_2:hover, .header_menu_3:hover, .header_menu_4:hover {
+    background-color: #414141;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.header_menu_1 {
+    width: 110px;
+    padding-right: 40px;
+}
+
+.header_menu_2 {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.header_menu_3 {
+    width: 140px;
+    padding-right: 30px;
+}
+
+.header_menu_4 {
+    width: 100px;
+}
+
+.container_menu_1, .container_menu_2, .container_menu_3, .container_menu_4, .container_menu_5, .container_menu_6 {
+    width: 240px;
+    height: 39px;
+    display: block;
+    line-height: 39px;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+}
+
+.container_menu_1, .container_menu_2, .container_menu_3, .container_menu_4, .container_menu_5 {
+    border-bottom: 0;
+}
+
+.container_menu {
+    position: absolute;
+    padding-left: 47px;
+    width: 240px;
+    top: 210px;
+    font-size: 13.33px;
+}
+
+.cont_ref {
+    float: left;
+    color: rgb(101, 99, 99);
+    padding-left: 25px;
+}
+
+.cont_ref:hover {
+    padding-left: 35px;
+    color: #2C2C2C;
+    background-color: #F9F9F9;
+}
+
+.container_menu_1:hover, .container_menu_2:hover, .container_menu_3:hover, .container_menu_4:hover, .container_menu_5:hover, .container_menu_6:hover {
+    background-color: #F9F9F9;
+}
+
+.container_image {
+    position: relative;
+    width: 677px;
+    left: 335px;
+    top: 78px;
+}
+
+.container_text {
+    display: block;
+    position: absolute;
+    top: 440px;
+    padding: 0px 20px;
+    font-size: 13.33px;
+    line-height: 1.6;
+}
+
+.footer {
+    height: 40px;
+    width: 966px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 260px;
+    background-color: #e1e1e1;
+}
+
+.footer_menu_1, .footer_menu_2, .footer_menu_3, .footer_menu_4, .footer_menu_5 {
+    float: left;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 40px;
+    width: 100px;
+}
+
+.footer_menu_1 {
+    width: 100px;
+    padding-right: 40px;
+}
+
+.footer_menu_2 {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.footer_menu_3 {
+    width: 140px;
+    padding-right: 30px;
+}
+
+.footer_menu_4 {
+    width: 100px;
+}
+
+.footer_menu_5 {
+    width: 170px;
+    padding-left: 255px;
+}
+
+.footer_ref {
+    color: #2c2c2c;
+}
+
+.footer_ref:hover {
+    border-bottom: 1px solid #2c2c2c;
+}
