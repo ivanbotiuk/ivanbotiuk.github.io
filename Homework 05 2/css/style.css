@@ -1,0 +1,73 @@
+/*SETTING UP*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d7d7d7;
+}
+
+table {
+    width: 500px;
+    height: 541px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 20px solid #d7d7d7;
+}
+
+td {
+    width: 65px;
+    padding: 1px;
+    background-color: #fff;
+    border: 10px solid #000;
+}
+
+
+/*COLORING TILES*/
+
+#blue {
+    background-color: #064581;
+}
+
+#black1, #black2 {
+    background-color: #2f3834;
+}
+
+#yellow1, #yellow2, #yellow3 {
+    background-color: #fff15e;
+}
+
+#orange {
+    background-color: #ff5f42;
+    height: 180px;
+    width: 180px;
+}
+
+
+/*LINING UP TILES*/
+
+.row1 {
+    height: 58px;
+}
+
+.row6 {
+    height: 63px;
+}
+
+.row7 {
+    height: 60px;
+}
+
+.row8 {
+    height: 42px;
+}
+
+.row9 {
+    height: 35px;
+}
+
+.col1 {
+    width: 50px;
+}
