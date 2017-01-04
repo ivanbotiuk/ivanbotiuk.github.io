@@ -1,0 +1,232 @@
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 36px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #07508f;
+}
+
+.line {
+    display: block;
+}
+
+.menu {
+    padding-left: 35%;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 13px 12px;
+    color: #60b5ed;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    display: block;
+    background-color: #4eabda;
+}
+
+.menu li:hover a {
+    color: #ffffff;
+}
+
+.line {
+    float: left;
+    width: 1px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 20px;
+}
+
+.flag a {
+    float: left;
+    width: 21px;
+    padding-top: 5px;
+}
+
+.user {
+    width: 120px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+    float: left;
+}
+
+.user a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.userLogin {
+    float: left;
+    width: 189px;
+    height: 35px;
+    color: #fff;
+    background-image: url(../img/top_bar.png);
+}
+
+.userLogin p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.userLogin a {
+    color: #fff;
+}
+
+
+/*CONTAINER*/
+
+.container {
+    height: 1028px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-style: 14px;
+}
+
+.content {
+    clear: both;
+    margin: 0 auto;
+    margin-top: 220px;
+    width: 560px;
+    height: 613px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.name {
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid #cbcfc1;
+}
+
+#name {
+    padding-top: 17px;
+    font-size: 24px;
+}
+
+.login {
+    margin: 0 auto;
+}
+
+.facebook {
+    height: 60px;
+    margin-top: 36px;
+}
+
+.buttonFacebook {
+    display: block;
+    margin: 0 auto;
+    width: 276px;
+    height: 35px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(../img/facebook.png);
+}
+
+.ou {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 276px;
+    text-align: center;
+    color: #8e8e8e;
+    background-image: url(../img/container_lines.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input {
+    margin: 0 auto;
+}
+
+.inputItem1 input {
+    width: 256px;
+    height: 35px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 1px solid #494948;
+    color: #c2c1c1;
+    background-color: #0f0e0e;
+}
+
+.inputItem1 input:focus {
+    margin: 0 auto;
+    width: 256px;
+    height: 35px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 10px 3px #4b87b1;
+    border-bottom: 1px solid #689bcc;
+    border-collapse: collapse;
+    color: #fff;
+    background-color: #1b5288;
+}
+
+.inputItem1, .inputItem3 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inputItem2 {
+    height: 30px;
+    margin-left: 153px;
+    margin-top: 5px;
+}
+
+.inputItem2 span {
+    padding-top: 25px;
+    font-size: 14px;
+    color: #c2c1c1;
+}
+
+.checkbox1 {
+    margin-left: -10px;
+}
+
+.buttonCreate {
+    width: 149px;
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+    color: #fff;
+    background-image: url(../img/create_account.png);
+    border-radius: 3px;
+}
+
+.agreement {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.agreement p {
+    font-size: 11px;
+    color: #c2c1c1;
+}
+
+#agreementTop {
+    margin-top: 15px;
+    padding-top: 2px;
+}
+
+#agreementBottom {
+    padding-top: 3px;
+}
